@@ -1,10 +1,10 @@
 # Neural-Netwrok-Models
 Understanding some most commonly used neural networks
-1. MLP
-2. CNN
-3. LSTM
+1. **Multi-Layer Perception**
+2. **Convolutional Neural Network**
+3. **Long Short-Term Memory**
 
-## MLUs
+## MLPs
 - The first layer specifies input_shape=(10,), indicating that it expects input data with 10 features. It has 64 units/neurons with an activation function: **ReLU (Rectified Linear Unit)**. ReLU is commonly used in hidden layers to introduce non-linearity.
 - The second layer has 32 units/neurons with an activation function: ReLU. The output layer has 1 unit because it’s a binary classification problem with an activation function: **Sigmoid**. The sigmoid function squashes the output between 0 and 1, which is suitable for binary classification problems.
 
